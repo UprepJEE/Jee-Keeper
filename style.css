@@ -1,13 +1,18 @@
 body{
     margin:0;
     background:#0b0b12;
-    color:white;
+    color:#a3a3a3;
     font-family:sans-serif;
 }
 
 .container{
     padding:20px;
     color:#a3a3a3;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: bold;
 }
 
 
