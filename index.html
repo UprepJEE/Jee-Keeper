@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JEE Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    
+    <h1>JEE Syllabus Tracker</h1>
+
+<p class="credit">
+    Built by
+    <span class="name">Prakash Patel</span>
+</p>
+
+    <div class="card">
+        <h2>Progress</h2>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress"></div>
+        </div>
+
+        <p id="percent">0%</p>
+    </div>
+
+    <div class="card">
+
+        <h2>Physics</h2>
+
+
+        <div class="chapter">
+            <span>Motion In One Dimension</span>
+
+            <input type="checkbox"
+                   onchange="updateProgress()">
+        </div>
+
+        <div class="chapter">
+            <span>Motion In Two Dimensions</span>
+
+            <input type="checkbox"
+                   onchange="updateProgress()">
+        </div>
+
+        <div class="chapter">
+            <span>Laws Of Motion</span>
+
+            <input type="checkbox"
+                   onchange="updateProgress()">
+        </div>
+        <div class="card">
+    <h2>Chemistry</h2>
+</div>
+
+<div class="chapter">
+    <span>Mole Concept</span>
+    <input type="checkbox">
+</div>
+
+<div class="chapter">
+    <span>Motion In Two Dimensions</span>
+    <input type="checkbox">
+</div>
+
+<div class="chapter">
+    <span>Laws Of Motion</span>
+    <input type="checkbox">
+</div>
+
+<div class="chapter">
+    <span>Work Power Energy</span>
+    <input type="checkbox">
+</div>
+
+<div class="chapter">
+    <span>Rotational Motion</span>
+    <input type="checkbox">
+</div>
+
+<div class="chapter">
+    <span>Gravitation</span>
+    <input type="checkbox">
+</div>
+
+<div class="card">
+    <h2>Mathematics</h2>
+</div>
+
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
