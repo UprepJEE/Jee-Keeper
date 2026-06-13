@@ -45,12 +45,14 @@ body{
     margin-left: 35px;
     margin-right: 40px;
 
+
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:25px;
 }
 
 /* Card Design */
+
 .card{
     height:180px;
     border-radius:25px;
@@ -70,6 +72,7 @@ body{
 /* Hover Effect */
 .card:hover{
     transform:translateY(-5px);
+
 }
 
 /* Left Section */
@@ -150,4 +153,111 @@ body{
     .arrow{
         font-size:40px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background:#050816;
+    color:white;
+    padding:60px 8%;
+    margin-top:80px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:40px;
+}
+
+.footer-left h2{
+    color:#6c7cff;
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.footer-left p{
+    color:#cfcfcf;
+    line-height:1.8;
+    font-size:20px;
+    max-width:500px;
+}
+
+.social-icons{
+    margin-top:25px;
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.social-icons a{
+    text-decoration:none;
+    color:white;
+    background:#111827;
+    padding:12px 18px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.social-icons a:hover{
+    background:#6c7cff;
+}
+
+.footer-right{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.footer-right h3{
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.footer-right a{
+    color:#d4d4d4;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.footer-right a:hover{
+    color:#6c7cff;
+}
+
+hr{
+    border:0;
+    height:1px;
+    background:#222;
+    margin:40px 0 25px;
+}
+
+.footer-bottom{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.bottom-links{
+    display:flex;
+    gap:20px;
+}
+
+.bottom-links a{
+    color:#cfcfcf;
+    text-decoration:none;
+}
+
+.bottom-links a:hover{
+    color:#6c7cff;
 }
